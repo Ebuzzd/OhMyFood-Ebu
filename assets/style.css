@@ -1,7 +1,6 @@
 * {
     margin-left: auto;
   margin-right: auto;
-  width: 375px;
 }
 
 
@@ -64,7 +63,11 @@ align-items: center;
 }
 
 .headline-et-fonctionnement {
-    
+    width: 375px;
+}
+
+.fonctionnement {
+    height: 440px;
 }
 
 .headline {
@@ -203,5 +206,66 @@ box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
   color: #7E7E7E;
 }
 
+.store {
+    fill: var(--Primary, #9356DC);
+}
 
+.b2 {
+    margin-top: 25px;
+}
 
+.b3 {
+    margin-top: 25px;
+}
+
+.restaurants {
+    background: var(--Background, #F6F6F6);
+}
+
+.card1 {
+    height: 251px;
+align-self: stretch;
+border-radius: 15px;
+}
+
+.rectangle {
+    width: 340px;
+height: 251px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #FFF;
+
+/* Shadow/Card */
+box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
+.h1rest {
+    color: #000;
+
+/* Section Title */
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.menil {
+    width: 340px;
+height: 174px;
+flex-shrink: 0;
+border-radius: 10px 10px 0 0;
+}
+
+.lapal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15px;
+color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
